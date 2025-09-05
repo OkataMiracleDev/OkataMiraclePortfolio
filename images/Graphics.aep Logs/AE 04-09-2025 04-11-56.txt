@@ -1,0 +1,17 @@
+Adobe After Effects v23.6 Windows 64 render log for project “Graphics.aep”
+
+Rendering started on 04/09/2025 at 04:11:56
+
+  04/09/2025 04:11:56: Starting composition “right-text”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\right-text_[#####].png    04/09/2025 04:11:57: Finished composition “right-text”.
+
+
+  04/09/2025 04:11:57: Starting composition “left-text”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\left-text_[#####].png    04/09/2025 04:11:59: Finished composition “left-text”.
+
+
+  Total Time Elapsed: 3 Seconds
+Log closed on 04/09/2025 at 04:11:59
+

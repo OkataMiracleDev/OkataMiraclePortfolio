@@ -1,0 +1,22 @@
+Adobe After Effects v23.6 Windows 64 render log for project “Graphics.aep”
+
+Rendering started on 03/09/2025 at 02:53:36
+
+  03/09/2025 02:53:37: Starting composition “hero-bg”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\hero-bg_[#####].jpg    03/09/2025 02:53:38: Finished composition “hero-bg”.
+
+
+  03/09/2025 02:53:38: Starting composition “testimonial test”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\testimonial test_[#####].jpg    03/09/2025 02:53:38: Finished composition “testimonial test”.
+
+
+  03/09/2025 02:53:38: Starting composition “contact-bg”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\contact-bg_[#####].jpg    03/09/2025 02:53:38: Finished composition “contact-bg”.
+
+
+  Total Time Elapsed: 2 Seconds
+Log closed on 03/09/2025 at 02:53:39
+

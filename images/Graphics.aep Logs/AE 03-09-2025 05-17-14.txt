@@ -1,0 +1,17 @@
+Adobe After Effects v23.6 Windows 64 render log for project “Graphics.aep”
+
+Rendering started on 03/09/2025 at 05:17:14
+
+  03/09/2025 05:17:14: Starting composition “stroke 1”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\stroke 1_[#####].png    03/09/2025 05:17:17: Finished composition “stroke 1”.
+
+
+  03/09/2025 05:17:17: Starting composition “testimonial test”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\testimonial test_[#####].jpg    03/09/2025 05:17:17: Finished composition “testimonial test”.
+
+
+  Total Time Elapsed: 3 Seconds
+Log closed on 03/09/2025 at 05:17:17
+

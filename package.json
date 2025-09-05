@@ -1,0 +1,23 @@
+{
+    "name": "okata-miracle-portfolio",
+    "version": "1.0.0",
+    "description": "this is a portfolio site for okata-miracle",
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "tailwindcss -i ./src/input.css -o ./style/styles.css --watch",
+        "build": "npx tailwindcss -i ./src/input.css -o ./style/styles.css --minify"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "tailwindcss": "^4.1.11",
+    "tailwindcss-animated": "^2.0.0"
+  },
+  "devDependencies": {
+    "@iconify/tailwind4": "^1.0.6",
+    "tailwind-scrollbar": "^4.0.2"
+  }
+}

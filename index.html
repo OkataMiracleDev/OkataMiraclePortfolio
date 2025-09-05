@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@0;1&family=Libertinus+Keyboard&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../style/styles.css" rel="stylesheet">
+  <title>Okata Miracle Portfolio</title>
+</head>
+<body class="bg-[#ebeaea] text-[#640909] font-[Oswald] mx-2 md:mx-4 mt-2">
+  
+  <nav class="tab-to-pc-nav hidden md:flex flex-row justify-between items-center liquid-glass border-y border-y-gray-500 py-2 mx-2 fixed top-7 md:w-[95%] lg:w-[96.5%]">
+    <div class="logo hover:font-bold">
+      <p style="font-family: Libertinus Keyboard;" class="md:text-xl lg:text-2xl">mimi</p>
+    </div>
+
+    <div class="nav-links flex flex-row md:text-xl md:gap-8">
+      <a class="hover:text-gray-700 hover:underline" href="#">About</a>
+      <a class="hover:text-gray-700 hover:underline" href="#">Projects</a>
+      <a class="hover:text-gray-700 hover:underline" href="#">Testimonial</a>
+      <a class="hover:text-gray-700 hover:underline" href="#">Contact</a>
+    </div>
+
+    <div class="dev-name flex flex-row items-center gap-2 px-1.5 py-1 bg-gray-300 hover:bg-gray-400 hover:text-emerald-800 w-fit rounded-xl">
+      <iconify-icon class="md:text-2xl" icon="solar:star-bold-duotone"></iconify-icon>
+      <p class="md:text-2xl">Okata Miracle</p>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <nav class="mobile-nav md:hidden fixed top-6 left-0 w-[96.5%] mx-2 flex flex-row justify-between items-center border-y border-y-gray-500 py-2 z-[9999]">
+    <!-- Logo -->
+    <div class="logo hover:font-bold">
+      <p style="font-family: Libertinus Keyboard;" class="text-xl">mimi</p>
+    </div>
+
+    <!-- Hamburger Button (only opens menu) -->
+    <button id="menu-button" class="p-2 rounded-lg flex text-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-400">
+      <iconify-icon id="hamburger-icon" class="text-3xl" icon="streamline-stickies-color:star-duo"></iconify-icon>
+    </button>
+
+    <!-- Mobile Menu Overlay -->
+    <div id="mobile-menu" class="fixed top-0 left-0 w-full h-full bg-white bg-opacity-95 backdrop-blur-sm z-40 flex flex-col items-center justify-center
+      transform translate-y-full transition-transform duration-500 ease-in-out">
+      <div class="nav-links flex flex-col text-3xl font-medium text-center gap-10">
+        <a class="text-gray-700 hover:text-emerald-700 transition-colors duration-200" href="#">About</a>
+        <a class="text-gray-700 hover:text-emerald-700 transition-colors duration-200" href="#">Projects</a>
+        <a class="text-gray-700 hover:text-emerald-700 transition-colors duration-200" href="#">Testimonial</a>
+        <a class="text-gray-700 hover:text-emerald-700 transition-colors duration-200" href="#">Contact</a>
+      </div>
+
+      <!-- Dev-name now works as the cancel button -->
+      <div id="cancel-button" class="dev-name mt-8 flex flex-row items-center gap-2 px-3 py-2 bg-gray-200 hover:bg-gray-300 transition-colors duration-200 rounded-xl cursor-pointer">
+        <iconify-icon class="text-3xl" icon="solar:star-bold-duotone"></iconify-icon>
+        <p class="text-xl font-medium">Okata Miracle</p>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero mt-32 md:mt-44 flex flex-col md:flex-row justify-center items-center gap-12">
+
+    <!-- Hero Content -->
+    <div class="hero-content flex flex-col items-end text-right max-w-xl">
+      <div class="hero-content-title flex flex-col justify-end gap-0">
+
+        <div class="flex lg:hidden flex-row justify-end items-center gap-4">
+          <div style="background-image: url(images/graphics/pfp_00000.jpg);" class="w-[3rem] md:w-[6rem] h-[3rem] md:h-[6rem] rounded-full bg-cover bg-center bg-no-repeat bg-green-400"></div>
+          <p class="text-[4.8rem] md:text-[8rem] lg:text-[8rem] font-bold leading-none">front-end</p>
+        </div>
+
+        <p class="hidden lg:flex lg:text-[8rem] font-bold leading-none">front-end</p>
+        <p class="text-[5.8rem] md:text-[10rem] lg:text-[10rem] font-bold leading-none">developer</p>
+      </div>
+
+      <div style="font-family: Alumni Sans Pinstripe;" class="hero-content-subtitle mt-4">
+        <p class="text-2xl md:text-4xl lg:text-3xl font-bold max-w-sm">
+          I am a creative/frontend developer with focus on user experience and responsivity
+        </p>
+      </div>
+
+      <!-- Socials -->
+      <div class="socials flex flex-row justify-end items-center gap-2 mt-2">
+        <a class="flex justify-center items-center w-[2rem] p-4 rounded-b-full border-2 border-[#640909] hover:border-white hover:bg-[#640909] hover:text-white transition-all duration-300" href="https://www.linkedin.com/in/okata-miracle-343792282/" target="_blank">
+          <p class="linked-in text-lg md:text-2xl">li</p>
+        </a>
+        <a class="flex justify-center items-center w-[2rem] p-4 rounded-b-full border-2 border-[#640909] hover:border-white hover:bg-[#640909] hover:text-white transition-all duration-300" href="https://github.com/OkataMiracleDev" target="_blank">
+          <p class="github text-lg md:text-2xl">gh</p>
+        </a>
+        <a class="flex justify-center items-center w-[2rem] p-4 rounded-b-full border-2 border-[#640909] hover:border-white hover:bg-[#640909] hover:text-white transition-all duration-300" href="https://www.instagram.com/eastsidebryan/" target="_blank">
+          <p class="instagram text-lg md:text-2xl">ig</p>
+        </a>
+        <a class="flex justify-center items-center w-[2rem] p-4 rounded-b-full border-2 border-[#640909] hover:border-white hover:bg-[#640909] hover:text-white transition-all duration-300" href="https://x.com/mimi_codes" target="_blank">
+          <p class="twitter text-lg md:text-2xl">x</p>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero Avatar -->
+    <div class="hero-avatar relative hidden lg:flex justify-center items-center w-[70vw] max-w-[35rem] aspect-square">
+
+      <!-- Avatar Image -->
+      <div 
+        class="w-full h-full bg-cover bg-center bg-no-repeat rounded-2xl"
+        style="background-image: url(images/graphics/silhouete_00000.png);">
+      </div>
+
+      <!-- Contact Button -->
+      <a href="#contact" 
+        class="absolute right-94 bottom-24 rotate-90 flex justify-center items-center px-4 py-2 h-[4rem] w-[16rem] rounded-l-xl rounded-r-3xl border-2 border-white bg-[#640909] hover:bg-emerald-800 text-white transition-all duration-300">
+        <p class="contact text-2xl md:text-4xl">contact me</p>
+      </a>
+    </div>
+  </section>
+
+
+  <script src="/scripts/index.js"></script>
+  <script src="https://code.iconify.design/iconify-icon/1.0.8/iconify-icon.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+Adobe After Effects v23.6 Windows 64 render log for project “Graphics.aep”
+
+Rendering started on 03/09/2025 at 05:00:24
+
+  03/09/2025 05:00:25: Starting composition “stroke 1”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\stroke 1_[#####].png  After Effects warning: Undo group mismatch, will attempt to fix.  03/09/2025 05:00:27: Finished composition “stroke 1”.
+
+
+  03/09/2025 05:00:28: Starting composition “stroke 2”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\stroke 2_[#####].png    03/09/2025 05:00:32: Finished composition “stroke 2”.
+
+
+  03/09/2025 05:00:32: Starting composition “silhouete”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\silhouete_[#####].png    03/09/2025 05:00:35: Finished composition “silhouete”.
+
+
+  03/09/2025 05:00:35: Starting composition “contact-bg”.
+
+  Output To: C:\Users\mrmir\Documents\Projects\7. Okata Miracle Portfolio\images\graphics\contact-bg_[#####].png    03/09/2025 05:00:35: Finished composition “contact-bg”.
+
+
+  Total Time Elapsed: 11 Seconds
+Log closed on 03/09/2025 at 05:00:35
+
