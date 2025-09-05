@@ -389,6 +389,10 @@
     border-block-style: var(--tw-border-style);
     border-block-width: 1px;
   }
+  .border-none {
+    --tw-border-style: none;
+    border-style: none;
+  }
   .border-\[\#640909\] {
     border-color: #640909;
   }
@@ -739,6 +743,21 @@
       width: 96.5%;
     }
   }
+  .lg\:border-\[\#640909\] {
+    @media (width >= 64rem) {
+      border-color: #640909;
+    }
+  }
+  .lg\:bg-\[\#ebeaea\] {
+    @media (width >= 64rem) {
+      background-color: #ebeaea;
+    }
+  }
+  .lg\:bg-none {
+    @media (width >= 64rem) {
+      background-image: none;
+    }
+  }
   .lg\:text-2xl {
     @media (width >= 64rem) {
       font-size: var(--text-2xl);
@@ -759,6 +778,11 @@
   .lg\:text-\[10rem\] {
     @media (width >= 64rem) {
       font-size: 10rem;
+    }
+  }
+  .lg\:text-\[\#640909\] {
+    @media (width >= 64rem) {
+      color: #640909;
     }
   }
 }
