@@ -22,18 +22,13 @@
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);}
 
-.liquid-glass {
-  will-change: backdrop-filter;
-  -webkit-transform: translateZ(0); /* forces GPU rendering */
-}
-
 .liquid-glass-2{
-  background-color: rgba(225, 198, 173, 0.4);
+  background-color: rgba(239, 217, 197, 0.4);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);}
 
 .liquid-glass-3{
-  background-color: rgba(38, 35, 237, 0.4);
+  background-color: rgba(84, 245, 94, 0.4);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);}
 
